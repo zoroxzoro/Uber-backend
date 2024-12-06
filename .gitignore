@@ -1,0 +1,64 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+
+# Debugging tools
+*.pid
+*.seed
+
+# Ignore specific file extensions
+*.log
+*.gz
+
+# Ignore uploaded files
+uploads/
+
+# Ignore database files
+*.sqlite
+*.sqlite3
+
+# Ignore testing tools
+jest-html-reporters-*
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore specific environment-specific files
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+
+# Ignore npm debug files
+npm-debug.log*
